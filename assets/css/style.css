@@ -156,4 +156,15 @@ html{
     height: 36px;
     border: 1px solid var(--white);
     border-radius: 36px;
+    margin-right: 16px;
+}
+
+.create-by__paragraph{
+    font-size: 1.6rem;
+    color: var(--soft-blue);
+    font-weight: 300;
+}
+
+.create-by__name{
+    color: var(--white);
 }
