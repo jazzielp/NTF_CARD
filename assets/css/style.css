@@ -40,11 +40,11 @@ html{
 
 .card{
     display: grid;
-    grid-template-rows: 65% 1fr 10%;
+    grid-template-rows: 65% 1fr 12%;
     width: 350px;
     min-width: 350px;
     max-width: 350px;
-    height: 580px;
+    height: 620px;
     background: var(--card--BG);
     border-radius: 20px;
     grid-template-areas: "header"
@@ -142,3 +142,18 @@ html{
 
 }
 
+.create-by{
+    display: flex;
+    align-items: center;
+    grid-area: footer;
+    width: 85%;
+    height: 70%;
+    margin: auto;
+}
+
+.create-by__profil{
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--white);
+    border-radius: 36px;
+}
